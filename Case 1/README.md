@@ -38,10 +38,6 @@ An attacker performed targeted enumeration against the HTTP service on the IIS s
 ## 6. Detailed Findings
 The investigation revealed that malware was pushed onto the device utilizing an open or authenticated SMB connection, exploiting the misconfigured document share to achieve code execution via the IIS web directory.
 
-*(Screenshot Example below - remove this text and uncomment the image link when ready)*
-
-*Figure 1: Wireshark capture showing the SMB tree connect request and payload transfer.*
-
 ## 7. Personal Reflection & Skills Development
 Based on this investigation, I have identified the following areas for continuous improvement and study:
 *   **Process Identification:** Deepen my understanding of normal vs. anomalous child-parent process relationships in Windows environments.
